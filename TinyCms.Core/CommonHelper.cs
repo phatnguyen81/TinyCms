@@ -231,7 +231,7 @@ namespace TinyCms.Core
             pi.SetValue(instance, value, new object[0]);
         }
 
-        public static TypeConverter GetNopCustomTypeConverter(Type type)
+        public static TypeConverter GetCmsCustomTypeConverter(Type type)
         {
             //we can't use the following code in order to register our custom type descriptors
             //TypeDescriptor.AddAttributes(typeof(List<int>), new TypeConverterAttribute(typeof(GenericListTypeConverter<int>)));
@@ -271,8 +271,8 @@ namespace TinyCms.Core
             {
                 var sourceType = value.GetType();
 
-                TypeConverter destinationConverter = GetNopCustomTypeConverter(destinationType);
-                TypeConverter sourceConverter = GetNopCustomTypeConverter(sourceType);
+                TypeConverter destinationConverter = GetCmsCustomTypeConverter(destinationType);
+                TypeConverter sourceConverter = GetCmsCustomTypeConverter(sourceType);
                 if (destinationConverter != null && destinationConverter.CanConvertFrom(value.GetType()))
                     return destinationConverter.ConvertFrom(null, culture, value);
                 if (sourceConverter != null && sourceConverter.CanConvertTo(destinationType))

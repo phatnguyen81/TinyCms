@@ -20,7 +20,7 @@ namespace TinyCms.Core.Domain.Localization
         public bool SeoFriendlyUrlsForLanguagesEnabled { get; set; }
 
         /// <summary>
-        /// A value indicating whether we should detect the current language by a customer region (browser settings)
+        /// A value indicating whether we should detect the current language by a user region (browser settings)
         /// </summary>
         public bool AutomaticallyDetectLanguage { get; set; }
 

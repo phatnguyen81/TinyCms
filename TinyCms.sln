@@ -3,7 +3,25 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
 VisualStudioVersion = 12.0.31101.0
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TinyCms.Web", "TinyCms.Web\TinyCms.Web.csproj", "{97D61CF0-F6BC-4166-A095-90DB304904B4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TinyCms.Core", "TinyCms.Core\TinyCms.Core.csproj", "{BE0753D7-8514-4663-A439-D0CC01D5FD92}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{97D61CF0-F6BC-4166-A095-90DB304904B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97D61CF0-F6BC-4166-A095-90DB304904B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97D61CF0-F6BC-4166-A095-90DB304904B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97D61CF0-F6BC-4166-A095-90DB304904B4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BE0753D7-8514-4663-A439-D0CC01D5FD92}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE0753D7-8514-4663-A439-D0CC01D5FD92}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE0753D7-8514-4663-A439-D0CC01D5FD92}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE0753D7-8514-4663-A439-D0CC01D5FD92}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection

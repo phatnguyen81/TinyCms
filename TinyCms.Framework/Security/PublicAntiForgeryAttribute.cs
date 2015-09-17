@@ -38,7 +38,7 @@ namespace TinyCms.Web.Framework.Security
             if (!DataSettingsHelper.DatabaseIsInstalled())
                 return;
             var securitySettings = EngineContext.Current.Resolve<SecuritySettings>();
-            if (!securitySettings.EnableXsrfProtectionForPublicStore)
+            if (!securitySettings.EnableXsrfProtectionForPublicSite)
                 return;
             
             var validator = new ValidateAntiForgeryTokenAttribute();

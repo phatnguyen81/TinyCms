@@ -127,7 +127,7 @@ namespace TinyCms.Core.Domain.Users
         /// <summary>
         /// Gets or sets a value indicating we should store last visited page URL for each User
         /// </summary>
-        public bool StoreLastVisitedPage { get; set; }
+        public bool SiteLastVisitedPage { get; set; }
         
         /// <summary>
         /// Gets or sets a value indicating whether deleted User records should be prefixed suffixed with "-DELETED"

@@ -2,7 +2,7 @@ using System;
 using System.Linq;
 using FluentValidation.Validators;
 
-namespace TinyCms.Web.Framework.Validators
+namespace TinyCms.Framework.Validators
 {
     public class CreditCardPropertyValidator : PropertyValidator
     {

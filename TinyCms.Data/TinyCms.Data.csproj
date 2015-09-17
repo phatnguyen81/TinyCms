@@ -71,6 +71,11 @@
     <Compile Include="Mapping\CmsEntityTypeConfiguration.cs" />
     <Compile Include="Mapping\Common\GenericAttributeMap.cs" />
     <Compile Include="Mapping\Configuration\SettingMap.cs" />
+    <Compile Include="Mapping\Media\DownloadMap.cs" />
+    <Compile Include="Mapping\Media\PictureMap.cs" />
+    <Compile Include="Mapping\Messages\EmailAccountMap.cs" />
+    <Compile Include="Mapping\Messages\NewsLetterSubscriptionMap.cs" />
+    <Compile Include="Mapping\Messages\QueuedEmailMap.cs" />
     <Compile Include="Mapping\Tasks\ScheduleTaskMap.cs" />
     <Compile Include="Mapping\Users\UserAttributeMap.cs" />
     <Compile Include="Mapping\Users\UserAttributeValueMap.cs" />

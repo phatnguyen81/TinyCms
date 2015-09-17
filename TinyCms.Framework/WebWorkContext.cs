@@ -1,12 +1,14 @@
 ﻿using System;
 using System.Linq;
 using System.Web;
+using Nop.Services.Helpers;
 using TinyCms.Core;
 using TinyCms.Core.Domain.Localization;
 using TinyCms.Core.Domain.Users;
 using TinyCms.Core.Fakes;
 using TinyCms.Services.Authentication;
 using TinyCms.Services.Common;
+using TinyCms.Services.Helpers;
 using TinyCms.Services.Localization;
 using TinyCms.Services.Users;
 using TinyCms.Web.Framework.Localization;
@@ -32,6 +34,7 @@ namespace TinyCms.Framework
         private readonly ILanguageService _languageService;
         private readonly IGenericAttributeService _genericAttributeService;
         private readonly LocalizationSettings _localizationSettings;
+        private readonly IUserAgentHelper _userAgentHelper;
 
         private User _cachedUser;
         private User _originalUserIfImpersonated;
@@ -46,7 +49,8 @@ namespace TinyCms.Framework
             IAuthenticationService authenticationService,
             ILanguageService languageService,
             IGenericAttributeService genericAttributeService,
-            LocalizationSettings localizationSettings)
+            LocalizationSettings localizationSettings, 
+            IUserAgentHelper userAgentHelper)
         {
             this._httpContext = httpContext;
             this._userService = userService;
@@ -54,6 +58,7 @@ namespace TinyCms.Framework
             this._languageService = languageService;
             this._genericAttributeService = genericAttributeService;
             this._localizationSettings = localizationSettings;
+            this._userAgentHelper = userAgentHelper;
         }
 
         #endregion
@@ -264,13 +269,13 @@ namespace TinyCms.Framework
                     //get language from browser settings
                     //but we do it only once
                     if (!this.CurrentUser.GetAttribute<bool>(SystemUserAttributeNames.LanguageAutomaticallyDetected, 
-                        _genericAttributeService, _storeContext.CurrentStore.Id))
+                        _genericAttributeService))
                     {
                         detectedLanguage = GetLanguageFromBrowserSettings();
                         if (detectedLanguage != null)
                         {
                             _genericAttributeService.SaveAttribute(this.CurrentUser, SystemUserAttributeNames.LanguageAutomaticallyDetected,
-                                 true, _storeContext.CurrentStore.Id);
+                                 true);
                         }
                     }
                 }
@@ -278,17 +283,17 @@ namespace TinyCms.Framework
                 {
                     //the language is detected. now we need to save it
                     if (this.CurrentUser.GetAttribute<int>(SystemUserAttributeNames.LanguageId,
-                        _genericAttributeService, _storeContext.CurrentStore.Id) != detectedLanguage.Id)
+                        _genericAttributeService) != detectedLanguage.Id)
                     {
                         _genericAttributeService.SaveAttribute(this.CurrentUser, SystemUserAttributeNames.LanguageId,
-                            detectedLanguage.Id, _storeContext.CurrentStore.Id);
+                            detectedLanguage.Id);
                     }
                 }
 
-                var allLanguages = _languageService.GetAllLanguages(storeId: _storeContext.CurrentStore.Id);
+                var allLanguages = _languageService.GetAllLanguages();
                 //find current User language
                 var languageId = this.CurrentUser.GetAttribute<int>(SystemUserAttributeNames.LanguageId,
-                    _genericAttributeService, _storeContext.CurrentStore.Id);
+                    _genericAttributeService);
                 var language = allLanguages.FirstOrDefault(x => x.Id == languageId);
                 if (language == null)
                 {
@@ -310,7 +315,7 @@ namespace TinyCms.Framework
                 var languageId = value != null ? value.Id : 0;
                 _genericAttributeService.SaveAttribute(this.CurrentUser,
                     SystemUserAttributeNames.LanguageId,
-                    languageId, _storeContext.CurrentStore.Id);
+                    languageId);
 
                 //reset cache
                 _cachedLanguage = null;

@@ -134,5 +134,11 @@ namespace TinyCms.Core
         /// Gets or sets a value that indicates whether the client is being redirected to a new location using POST
         /// </summary>
         bool IsPostBeingDone { get; set; }
+
+        /// <summary>
+        /// Gets a value indicating whether connection should be secured
+        /// </summary>
+        /// <returns>Result</returns>
+        bool SslEnabled();
     }
 }

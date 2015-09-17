@@ -6,6 +6,7 @@ using Nop.Services.Helpers;
 using TinyCms.Core;
 using TinyCms.Core.Configuration;
 using TinyCms.Core.Infrastructure;
+using UserAgentStringLibrary;
 
 namespace TinyCms.Services.Helpers
 {

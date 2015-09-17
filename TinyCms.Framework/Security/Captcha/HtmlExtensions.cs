@@ -2,8 +2,9 @@
 using System.Web.Mvc;
 using System.Web.UI;
 using TinyCms.Core.Infrastructure;
+using TinyCms.Web.Framework.Security.Captcha;
 
-namespace TinyCms.Web.Framework.Security.Captcha
+namespace TinyCms.Framework.Security.Captcha
 {
     public static class HtmlExtensions
     {

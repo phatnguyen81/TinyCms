@@ -9,11 +9,10 @@ using TinyCms.Core.Data;
 using TinyCms.Core.Infrastructure;
 using TinyCms.Services.Localization;
 using TinyCms.Web.Framework.Localization;
-using TinyCms.Web.Framework.Themes;
 
 #endregion
 
-namespace TinyCms.Web.Framework.ViewEngines.Razor
+namespace TinyCms.Framework.ViewEngines.Razor
 {
     public abstract class WebViewPage<TModel> : System.Web.Mvc.WebViewPage<TModel>
     {
@@ -121,23 +120,6 @@ namespace TinyCms.Web.Framework.ViewEngines.Razor
         }
 
         /// <summary>
-        /// Return a value indicating whether the working language and theme support RTL (right-to-left)
-        /// </summary>
-        /// <returns></returns>
-        public bool ShouldUseRtlTheme()
-        {
-            var supportRtl = _workContext.WorkingLanguage.Rtl;
-            if (supportRtl)
-            {
-                //ensure that the active theme also supports it
-                var themeProvider = EngineContext.Current.Resolve<IThemeProvider>();
-                var themeContext = EngineContext.Current.Resolve<IThemeContext>();
-                supportRtl = themeProvider.GetThemeConfiguration(themeContext.WorkingThemeName).SupportRtl;
-            }
-            return supportRtl;
-        }
-
-        /// <summary>
         /// Gets a selected tab index (used in admin area to store selected tab index)
         /// </summary>
         /// <returns>Index</returns>
@@ -146,7 +128,7 @@ namespace TinyCms.Web.Framework.ViewEngines.Razor
             //keep this method synchornized with
             //"SetSelectedTabIndex" method of \Administration\Controllers\BaseNopController.cs
             int index = 0;
-            string dataKey = "nop.selected-tab-index";
+            string dataKey = "tinycms.selected-tab-index";
             if (ViewData[dataKey] is int)
             {
                 index = (int)ViewData[dataKey];

@@ -24,31 +24,16 @@ namespace TinyCms.Core.Domain
         /// </summary>
         public bool SiteClosedAllowForAdmins { get; set; }
 
-        /// <summary>
-        /// Gets or sets a default store theme for desktops
-        /// </summary>
-        public string DefaultSiteThemeForDesktops { get; set; }
+       
 
         /// <summary>
         /// Gets or sets a value indicating whether users are allowed to select a theme
         /// </summary>
         public bool AllowUserToSelectTheme { get; set; }
 
-        /// <summary>
-        /// Gets or sets a value indicating whether mobile devices supported
-        /// </summary>
-        public bool MobileDevicesSupported { get; set; }
+      
 
-        /// <summary>
-        /// Gets or sets a default store theme used by mobile devices (if enabled)
-        /// </summary>
-        public string DefaultSiteThemeForMobileDevices { get; set; }
-
-        /// <summary>
-        /// Gets or sets a value indicating whether all requests will be handled as mobile devices (used for testing)
-        /// </summary>
-        public bool EmulateMobileDevice { get; set; }
-
+      
         /// <summary>
         /// Gets or sets a value indicating whether mini profiler should be displayed in public store (used for debugging)
         /// </summary>

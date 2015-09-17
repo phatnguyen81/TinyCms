@@ -1,6 +1,6 @@
 using FluentValidation;
 
-namespace TinyCms.Web.Framework.Validators
+namespace TinyCms.Framework.Validators
 {
     public static class MyValidatorExtensions
     {

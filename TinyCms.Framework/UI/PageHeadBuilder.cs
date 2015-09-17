@@ -111,7 +111,7 @@ namespace TinyCms.Web.Framework.UI
                     //store name + page title
                     switch (_seoSettings.PageTitleSeoAdjustment)
                     {
-                        case PageTitleSeoAdjustment.PagenameAfterStorename:
+                        case PageTitleSeoAdjustment.PagenameAfterSitename:
                             {
                                 result = string.Join(_seoSettings.PageTitleSeparator, _seoSettings.DefaultTitle, specificTitle);
                             }

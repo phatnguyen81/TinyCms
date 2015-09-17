@@ -98,7 +98,7 @@ namespace TinyCms.Web.Framework.Seo
                 }
                 break;
                 default:
-                    throw new NopException("Not supported WwwRequirement parameter");
+                    throw new CmsException("Not supported WwwRequirement parameter");
             }
         }
     }

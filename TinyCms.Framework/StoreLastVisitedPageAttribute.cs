@@ -26,8 +26,8 @@ namespace TinyCms.Web.Framework
             if (!String.Equals(filterContext.HttpContext.Request.HttpMethod, "GET", StringComparison.OrdinalIgnoreCase))
                 return;
 
-            var customerSettings = EngineContext.Current.Resolve<UserSettings>();
-            if (!customerSettings.StoreLastVisitedPage)
+            var userSettings = EngineContext.Current.Resolve<UserSettings>();
+            if (!userSettings.SiteLastVisitedPage)
                 return;
 
             var webHelper = EngineContext.Current.Resolve<IWebHelper>();

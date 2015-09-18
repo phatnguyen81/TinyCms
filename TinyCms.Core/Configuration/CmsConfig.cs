@@ -6,7 +6,7 @@ using TinyCms.Core.Infrastructure;
 namespace TinyCms.Core.Configuration
 {
     /// <summary>
-    /// Represents a NopConfig
+    /// Represents a CmsConfig
     /// </summary>
     public partial class CmsConfig : IConfigurationSectionHandler
     {

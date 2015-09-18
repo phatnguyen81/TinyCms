@@ -29,6 +29,7 @@ using TinyCms.Services.Messages;
 using TinyCms.Services.Security;
 using TinyCms.Services.Seo;
 using TinyCms.Services.Tasks;
+using TinyCms.Services.Users;
 using TinyCms.Web.Framework.Mvc.Routes;
 using TinyCms.Web.Framework.UI;
 using System.Configuration;
@@ -138,10 +139,10 @@ namespace TinyCms.Framework
             //builder.RegisterType<MaintenanceService>().As<IMaintenanceService>().InstancePerLifetimeScope();
 
 
-            //builder.RegisterType<UserAttributeParser>().As<IUserAttributeParser>().InstancePerLifetimeScope();
-            //builder.RegisterType<UserAttributeService>().As<IUserAttributeService>().InstancePerLifetimeScope();
-            //builder.RegisterType<UserService>().As<IUserService>().InstancePerLifetimeScope();
-            //builder.RegisterType<UserRegistrationService>().As<IUserRegistrationService>().InstancePerLifetimeScope();
+            builder.RegisterType<UserAttributeParser>().As<IUserAttributeParser>().InstancePerLifetimeScope();
+            builder.RegisterType<UserAttributeService>().As<IUserAttributeService>().InstancePerLifetimeScope();
+            builder.RegisterType<UserService>().As<IUserService>().InstancePerLifetimeScope();
+            builder.RegisterType<UserRegistrationService>().As<IUserRegistrationService>().InstancePerLifetimeScope();
             //builder.RegisterType<UserReportService>().As<IUserReportService>().InstancePerLifetimeScope();
 
             //pass MemoryCacheManager as cacheManager (cache settings between requests)

@@ -1,13 +1,14 @@
 ﻿using System.Web.Mvc;
 using FluentValidation.Attributes;
 using TinyCms.Framework;
+using TinyCms.Framework.Mvc;
 using TinyCms.Web.Framework.Mvc;
 using TinyCms.Web.Validators.Common;
 
 namespace TinyCms.Web.Models.Common
 {
     [Validator(typeof(ContactUsValidator))]
-    public partial class ContactUsModel : BaseNopModel
+    public partial class ContactUsModel : BaseCmsModel
     {
         [AllowHtml]
         [CmsResourceDisplayName("ContactUs.Email")]

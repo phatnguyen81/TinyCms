@@ -2,13 +2,14 @@
 using System.ComponentModel.DataAnnotations;
 using System.Web.Mvc;
 using FluentValidation.Attributes;
+using TinyCms.Framework.Mvc;
 using TinyCms.Web.Framework.Mvc;
 using TinyCms.Web.Validators.Install;
 
 namespace TinyCms.Web.Models.Install
 {
     [Validator(typeof(InstallValidator))]
-    public partial class InstallModel : BaseNopModel
+    public partial class InstallModel : BaseCmsModel
     {
         public InstallModel()
         {

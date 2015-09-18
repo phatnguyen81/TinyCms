@@ -45,7 +45,7 @@ namespace TinyCms.Core.Infrastructure
         {
             if (Singleton<IEngine>.Instance == null || forceRecreate)
             {
-                var config = ConfigurationManager.GetSection("NopConfig") as CmsConfig;
+                var config = ConfigurationManager.GetSection("CmsConfig") as CmsConfig;
                 Singleton<IEngine>.Instance = CreateEngineInstance(config);
                 Singleton<IEngine>.Instance.Initialize(config);
             }

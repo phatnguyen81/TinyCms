@@ -76,6 +76,7 @@
     <Compile Include="Mapping\Messages\EmailAccountMap.cs" />
     <Compile Include="Mapping\Messages\NewsLetterSubscriptionMap.cs" />
     <Compile Include="Mapping\Messages\QueuedEmailMap.cs" />
+    <Compile Include="Mapping\Seo\UrlRecordMap.cs" />
     <Compile Include="Mapping\Tasks\ScheduleTaskMap.cs" />
     <Compile Include="Mapping\Users\UserAttributeMap.cs" />
     <Compile Include="Mapping\Users\UserAttributeValueMap.cs" />

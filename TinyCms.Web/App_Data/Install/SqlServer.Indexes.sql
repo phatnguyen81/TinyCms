@@ -4,16 +4,16 @@ GO
 CREATE NONCLUSTERED INDEX [IX_Log_CreatedOnUtc] ON [Log] ([CreatedOnUtc] ASC)
 GO
 
-CREATE NONCLUSTERED INDEX [IX_Customer_Email] ON [Customer] ([Email] ASC)
+CREATE NONCLUSTERED INDEX [IX_User_Email] ON [User] ([Email] ASC)
 GO
 
-CREATE NONCLUSTERED INDEX [IX_Customer_Username] ON [Customer] ([Username] ASC)
+CREATE NONCLUSTERED INDEX [IX_User_Username] ON [User] ([Username] ASC)
 GO
 
-CREATE NONCLUSTERED INDEX [IX_Customer_CustomerGuid] ON [Customer] ([CustomerGuid] ASC)
+CREATE NONCLUSTERED INDEX [IX_User_UserGuid] ON [User] ([UserGuid] ASC)
 GO
 
-CREATE NONCLUSTERED INDEX [IX_Customer_SystemName] ON [Customer] ([SystemName] ASC)
+CREATE NONCLUSTERED INDEX [IX_User_SystemName] ON [User] ([SystemName] ASC)
 GO
 
 CREATE NONCLUSTERED INDEX [IX_GenericAttribute_EntityId_and_KeyGroup] ON [GenericAttribute] ([EntityId] ASC, [KeyGroup] ASC)
@@ -23,9 +23,6 @@ CREATE NONCLUSTERED INDEX [IX_QueuedEmail_CreatedOnUtc] ON [QueuedEmail] ([Creat
 GO
 
 CREATE NONCLUSTERED INDEX [IX_Language_DisplayOrder] ON [Language] ([DisplayOrder] ASC)
-GO
-
-CREATE NONCLUSTERED INDEX [IX_News_LanguageId] ON [News] ([LanguageId] ASC)
 GO
 
 CREATE NONCLUSTERED INDEX [IX_NewsletterSubscription_Email_StoreId] ON [NewsletterSubscription] ([Email] ASC, [StoreId] ASC)

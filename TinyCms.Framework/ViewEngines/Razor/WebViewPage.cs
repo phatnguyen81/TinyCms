@@ -128,7 +128,7 @@ namespace TinyCms.Framework.ViewEngines.Razor
             //keep this method synchornized with
             //"SetSelectedTabIndex" method of \Administration\Controllers\BaseNopController.cs
             int index = 0;
-            string dataKey = "tinycms.selected-tab-index";
+            string dataKey = "cms.selected-tab-index";
             if (ViewData[dataKey] is int)
             {
                 index = (int)ViewData[dataKey];

@@ -471,10 +471,6 @@ GO
 
 
 
-INSERT [dbo].[UserAddresses] ([User_Id], [Address_Id]) VALUES (1, 1)
-GO
-
-
 SET IDENTITY_INSERT [dbo].[GenericAttribute] ON
 INSERT [dbo].[GenericAttribute] ([Id], [EntityId], [KeyGroup], [Key], [Value], [StoreId]) VALUES (1, 1, N'User', N'FirstName', N'John', 0)
 INSERT [dbo].[GenericAttribute] ([Id], [EntityId], [KeyGroup], [Key], [Value], [StoreId]) VALUES (2, 1, N'User', N'LastName', N'Smith', 0)

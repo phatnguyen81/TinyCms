@@ -6,12 +6,15 @@ using System.Web.Mvc;
 using System.Web.Routing;
 using FluentValidation.Mvc;
 using StackExchange.Profiling;
+using StackExchange.Profiling.Mvc;
 using TinyCms.Core;
 using TinyCms.Core.Data;
 using TinyCms.Core.Domain;
 using TinyCms.Core.Domain.Common;
 using TinyCms.Core.Infrastructure;
 using TinyCms.Framework;
+using TinyCms.Framework.Mvc;
+using TinyCms.Framework.ViewEngines.Razor;
 using TinyCms.Services.Logging;
 using TinyCms.Services.Tasks;
 using TinyCms.Web.Controllers;
@@ -35,7 +38,7 @@ namespace TinyCms.Web
                 "Default", // Route name
                 "{controller}/{action}/{id}", // URL with parameters
                 new { controller = "Home", action = "Index", id = UrlParameter.Optional },
-                new[] { "Nop.Web.Controllers" }
+                new[] { "TinyCms.Web.Controllers" }
             );
         }
 
@@ -45,9 +48,18 @@ namespace TinyCms.Web
             EngineContext.Initialize(false);
 
             bool databaseInstalled = DataSettingsHelper.DatabaseIsInstalled();
- 
+
+            if (databaseInstalled)
+            {
+                //remove all view engines
+                ViewEngines.Engines.Clear();
+                //except the themeable razor view engine we use
+                ViewEngines.Engines.Add(new CustomRazorViewEngine());
+            }
+
+
             //Add some functionality on top of the default ModelMetadataProvider
-            ModelMetadataProviders.Current = new NopMetadataProvider();
+            ModelMetadataProviders.Current = new CmsMetadataProvider();
 
             //Registering some regular mvc stuff
             AreaRegistration.RegisterAllAreas();
@@ -67,7 +79,7 @@ namespace TinyCms.Web
             //miniprofiler
             if (databaseInstalled)
             {
-                if (EngineContext.Current.Resolve<SiteInformationSettings>().DisplayMiniProfilerInPublicStore)
+                if (EngineContext.Current.Resolve<SiteInformationSettings>().DisplayMiniProfilerInPublicSite)
                 {
                     GlobalFilters.Filters.Add(new ProfilingActionFilter());
                 }

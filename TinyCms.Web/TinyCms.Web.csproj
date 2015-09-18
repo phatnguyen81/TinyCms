@@ -53,6 +53,9 @@
     <Reference Include="MiniProfiler">
       <HintPath>..\packages\MiniProfiler.3.2.0.157\lib\net40\MiniProfiler.dll</HintPath>
     </Reference>
+    <Reference Include="MiniProfiler.Mvc">
+      <HintPath>..\packages\MiniProfiler.MVC4.3.0.11\lib\net40\MiniProfiler.Mvc.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
     <Reference Include="System.Drawing" />
@@ -1704,6 +1707,10 @@
     <ProjectReference Include="..\TinyCms.Core\TinyCms.Core.csproj">
       <Project>{be0753d7-8514-4663-a439-d0cc01d5fd92}</Project>
       <Name>TinyCms.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TinyCms.Data\TinyCms.Data.csproj">
+      <Project>{b0392b47-5842-4f58-9578-6c55c47473f4}</Project>
+      <Name>TinyCms.Data</Name>
     </ProjectReference>
     <ProjectReference Include="..\TinyCms.Framework\TinyCms.Framework.csproj">
       <Project>{a4293744-a4e1-4396-8070-c32b661f29ea}</Project>

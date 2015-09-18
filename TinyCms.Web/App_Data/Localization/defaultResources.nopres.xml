@@ -11478,379 +11478,379 @@
   <LocaleResource Name="DownloadableProducts.UserAgreement">
     <Value>User agreement</Value>
   </LocaleResource>
-  <LocaleResource Name="Enums.Nop.Core.Domain.Catalog.AttributeControlType.Checkboxes">
+  <LocaleResource Name="Enums.TinyCms.Core.Domain.Catalog.AttributeControlType.Checkboxes">
     <Value>Checkboxes</Value>
   </LocaleResource>
-  <LocaleResource Name="Enums.Nop.Core.Domain.Catalog.AttributeControlType.ColorSquares">
+  <LocaleResource Name="Enums.TinyCms.Core.Domain.Catalog.AttributeControlType.ColorSquares">
     <Value>Color squares</Value>
   </LocaleResource>
-  <LocaleResource Name="Enums.Nop.Core.Domain.Catalog.AttributeControlType.Datepicker">
+  <LocaleResource Name="Enums.TinyCms.Core.Domain.Catalog.AttributeControlType.Datepicker">
     <Value>Date picker</Value>
   </LocaleResource>
-  <LocaleResource Name="Enums.Nop.Core.Domain.Catalog.AttributeControlType.DropdownList">
+  <LocaleResource Name="Enums.TinyCms.Core.Domain.Catalog.AttributeControlType.DropdownList">
     <Value>Drop-down list</Value>
   </LocaleResource>
-  <LocaleResource Name="Enums.Nop.Core.Domain.Catalog.AttributeControlType.FileUpload">
+  <LocaleResource Name="Enums.TinyCms.Core.Domain.Catalog.AttributeControlType.FileUpload">
     <Value>File upload</Value>
   </LocaleResource>
-  <LocaleResource Name="Enums.Nop.Core.Domain.Catalog.AttributeControlType.MultilineTextbox">
+  <LocaleResource Name="Enums.TinyCms.Core.Domain.Catalog.AttributeControlType.MultilineTextbox">
     <Value>Multiline textbox</Value>
   </LocaleResource>
-  <LocaleResource Name="Enums.Nop.Core.Domain.Catalog.AttributeControlType.RadioList">
+  <LocaleResource Name="Enums.TinyCms.Core.Domain.Catalog.AttributeControlType.RadioList">
     <Value>Radio button list</Value>
   </LocaleResource>
-  <LocaleResource Name="Enums.Nop.Core.Domain.Catalog.AttributeControlType.ReadonlyCheckboxes">
+  <LocaleResource Name="Enums.TinyCms.Core.Domain.Catalog.AttributeControlType.ReadonlyCheckboxes">
     <Value>Read-only checkboxes</Value>
   </LocaleResource>
-  <LocaleResource Name="Enums.Nop.Core.Domain.Catalog.AttributeControlType.TextBox">
+  <LocaleResource Name="Enums.TinyCms.Core.Domain.Catalog.AttributeControlType.TextBox">
     <Value>Textbox</Value>
   </LocaleResource>
-  <LocaleResource Name="Enums.Nop.Core.Domain.Catalog.AttributeValueType.AssociatedToProduct">
+  <LocaleResource Name="Enums.TinyCms.Core.Domain.Catalog.AttributeValueType.AssociatedToProduct">
     <Value>Associated to product</Value>
   </LocaleResource>
-  <LocaleResource Name="Enums.Nop.Core.Domain.Catalog.AttributeValueType.Simple">
+  <LocaleResource Name="Enums.TinyCms.Core.Domain.Catalog.AttributeValueType.Simple">
     <Value>Simple</Value>
   </LocaleResource>
-  <LocaleResource Name="Enums.Nop.Core.Domain.Catalog.BackorderMode.AllowQtyBelow0">
+  <LocaleResource Name="Enums.TinyCms.Core.Domain.Catalog.BackorderMode.AllowQtyBelow0">
     <Value>Allow qty below 0</Value>
   </LocaleResource>
-  <LocaleResource Name="Enums.Nop.Core.Domain.Catalog.BackorderMode.AllowQtyBelow0AndNotifyCustomer">
+  <LocaleResource Name="Enums.TinyCms.Core.Domain.Catalog.BackorderMode.AllowQtyBelow0AndNotifyCustomer">
     <Value>Allow qty below 0 and notify customer</Value>
   </LocaleResource>
-  <LocaleResource Name="Enums.Nop.Core.Domain.Catalog.BackorderMode.NoBackorders">
+  <LocaleResource Name="Enums.TinyCms.Core.Domain.Catalog.BackorderMode.NoBackorders">
     <Value>No backorders</Value>
   </LocaleResource>
-  <LocaleResource Name="Enums.Nop.Core.Domain.Catalog.DownloadActivationType.Manually">
+  <LocaleResource Name="Enums.TinyCms.Core.Domain.Catalog.DownloadActivationType.Manually">
     <Value>Manually</Value>
   </LocaleResource>
-  <LocaleResource Name="Enums.Nop.Core.Domain.Catalog.DownloadActivationType.WhenOrderIsPaid">
+  <LocaleResource Name="Enums.TinyCms.Core.Domain.Catalog.DownloadActivationType.WhenOrderIsPaid">
     <Value>When order is paid</Value>
   </LocaleResource>
-  <LocaleResource Name="Enums.Nop.Core.Domain.Catalog.GiftCardType.Physical">
+  <LocaleResource Name="Enums.TinyCms.Core.Domain.Catalog.GiftCardType.Physical">
     <Value>Physical</Value>
   </LocaleResource>
-  <LocaleResource Name="Enums.Nop.Core.Domain.Catalog.GiftCardType.Virtual">
+  <LocaleResource Name="Enums.TinyCms.Core.Domain.Catalog.GiftCardType.Virtual">
     <Value>Virtual</Value>
   </LocaleResource>
-  <LocaleResource Name="Enums.Nop.Core.Domain.Catalog.LowStockActivity.DisableBuyButton">
+  <LocaleResource Name="Enums.TinyCms.Core.Domain.Catalog.LowStockActivity.DisableBuyButton">
     <Value>Disable buy button</Value>
   </LocaleResource>
-  <LocaleResource Name="Enums.Nop.Core.Domain.Catalog.LowStockActivity.Nothing">
+  <LocaleResource Name="Enums.TinyCms.Core.Domain.Catalog.LowStockActivity.Nothing">
     <Value>Nothing</Value>
   </LocaleResource>
-  <LocaleResource Name="Enums.Nop.Core.Domain.Catalog.LowStockActivity.Unpublish">
+  <LocaleResource Name="Enums.TinyCms.Core.Domain.Catalog.LowStockActivity.Unpublish">
     <Value>Unpublish</Value>
   </LocaleResource>
-  <LocaleResource Name="Enums.Nop.Core.Domain.Catalog.ManageInventoryMethod.DontManageStock">
+  <LocaleResource Name="Enums.TinyCms.Core.Domain.Catalog.ManageInventoryMethod.DontManageStock">
     <Value>Don't track inventory</Value>
   </LocaleResource>
-  <LocaleResource Name="Enums.Nop.Core.Domain.Catalog.ManageInventoryMethod.ManageStock">
+  <LocaleResource Name="Enums.TinyCms.Core.Domain.Catalog.ManageInventoryMethod.ManageStock">
     <Value>Track inventory</Value>
   </LocaleResource>
-  <LocaleResource Name="Enums.Nop.Core.Domain.Catalog.ManageInventoryMethod.ManageStockByAttributes">
+  <LocaleResource Name="Enums.TinyCms.Core.Domain.Catalog.ManageInventoryMethod.ManageStockByAttributes">
     <Value>Track inventory by product attributes</Value>
   </LocaleResource>
-  <LocaleResource Name="Enums.Nop.Core.Domain.Catalog.ProductSortingEnum.CreatedOn">
+  <LocaleResource Name="Enums.TinyCms.Core.Domain.Catalog.ProductSortingEnum.CreatedOn">
     <Value>Created on</Value>
   </LocaleResource>
-  <LocaleResource Name="Enums.Nop.Core.Domain.Catalog.ProductSortingEnum.NameAsc">
+  <LocaleResource Name="Enums.TinyCms.Core.Domain.Catalog.ProductSortingEnum.NameAsc">
     <Value>Name: A to Z</Value>
   </LocaleResource>
-  <LocaleResource Name="Enums.Nop.Core.Domain.Catalog.ProductSortingEnum.NameDesc">
+  <LocaleResource Name="Enums.TinyCms.Core.Domain.Catalog.ProductSortingEnum.NameDesc">
     <Value>Name: Z to A</Value>
   </LocaleResource>
-  <LocaleResource Name="Enums.Nop.Core.Domain.Catalog.ProductSortingEnum.Position">
+  <LocaleResource Name="Enums.TinyCms.Core.Domain.Catalog.ProductSortingEnum.Position">
     <Value>Position</Value>
   </LocaleResource>
-  <LocaleResource Name="Enums.Nop.Core.Domain.Catalog.ProductSortingEnum.PriceAsc">
+  <LocaleResource Name="Enums.TinyCms.Core.Domain.Catalog.ProductSortingEnum.PriceAsc">
     <Value>Price: Low to High</Value>
   </LocaleResource>
-  <LocaleResource Name="Enums.Nop.Core.Domain.Catalog.ProductSortingEnum.PriceDesc">
+  <LocaleResource Name="Enums.TinyCms.Core.Domain.Catalog.ProductSortingEnum.PriceDesc">
     <Value>Price: High to Low</Value>
   </LocaleResource>
-  <LocaleResource Name="Enums.Nop.Core.Domain.Catalog.ProductType.GroupedProduct">
+  <LocaleResource Name="Enums.TinyCms.Core.Domain.Catalog.ProductType.GroupedProduct">
     <Value>Grouped product</Value>
   </LocaleResource>
-  <LocaleResource Name="Enums.Nop.Core.Domain.Catalog.ProductType.SimpleProduct">
+  <LocaleResource Name="Enums.TinyCms.Core.Domain.Catalog.ProductType.SimpleProduct">
     <Value>Simple product</Value>
   </LocaleResource>
-  <LocaleResource Name="Enums.Nop.Core.Domain.Catalog.RecurringProductCyclePeriod.Days">
+  <LocaleResource Name="Enums.TinyCms.Core.Domain.Catalog.RecurringProductCyclePeriod.Days">
     <Value>Days</Value>
   </LocaleResource>
-  <LocaleResource Name="Enums.Nop.Core.Domain.Catalog.RecurringProductCyclePeriod.Months">
+  <LocaleResource Name="Enums.TinyCms.Core.Domain.Catalog.RecurringProductCyclePeriod.Months">
     <Value>Months</Value>
   </LocaleResource>
-  <LocaleResource Name="Enums.Nop.Core.Domain.Catalog.RecurringProductCyclePeriod.Weeks">
+  <LocaleResource Name="Enums.TinyCms.Core.Domain.Catalog.RecurringProductCyclePeriod.Weeks">
     <Value>Weeks</Value>
   </LocaleResource>
-  <LocaleResource Name="Enums.Nop.Core.Domain.Catalog.RecurringProductCyclePeriod.Years">
+  <LocaleResource Name="Enums.TinyCms.Core.Domain.Catalog.RecurringProductCyclePeriod.Years">
     <Value>Years</Value>
   </LocaleResource>
-  <LocaleResource Name="Enums.Nop.Core.Domain.Catalog.RentalPricePeriod.Days">
+  <LocaleResource Name="Enums.TinyCms.Core.Domain.Catalog.RentalPricePeriod.Days">
     <Value>Days</Value>
   </LocaleResource>
-  <LocaleResource Name="Enums.Nop.Core.Domain.Catalog.RentalPricePeriod.Weeks">
+  <LocaleResource Name="Enums.TinyCms.Core.Domain.Catalog.RentalPricePeriod.Weeks">
     <Value>Weeks</Value>
   </LocaleResource>
-  <LocaleResource Name="Enums.Nop.Core.Domain.Catalog.RentalPricePeriod.Months">
+  <LocaleResource Name="Enums.TinyCms.Core.Domain.Catalog.RentalPricePeriod.Months">
     <Value>Months</Value>
   </LocaleResource>
-  <LocaleResource Name="Enums.Nop.Core.Domain.Catalog.RentalPricePeriod.Years">
+  <LocaleResource Name="Enums.TinyCms.Core.Domain.Catalog.RentalPricePeriod.Years">
     <Value>Years</Value>
   </LocaleResource>
-  <LocaleResource Name="Enums.Nop.Core.Domain.Catalog.SpecificationAttributeType.Option">
+  <LocaleResource Name="Enums.TinyCms.Core.Domain.Catalog.SpecificationAttributeType.Option">
     <Value>Option</Value>
   </LocaleResource>
-  <LocaleResource Name="Enums.Nop.Core.Domain.Catalog.SpecificationAttributeType.CustomText">
+  <LocaleResource Name="Enums.TinyCms.Core.Domain.Catalog.SpecificationAttributeType.CustomText">
     <Value>Custom text</Value>
   </LocaleResource>
-  <LocaleResource Name="Enums.Nop.Core.Domain.Catalog.SpecificationAttributeType.CustomHtmlText">
+  <LocaleResource Name="Enums.TinyCms.Core.Domain.Catalog.SpecificationAttributeType.CustomHtmlText">
     <Value>Custom HTML text</Value>
   </LocaleResource>
-  <LocaleResource Name="Enums.Nop.Core.Domain.Catalog.SpecificationAttributeType.Hyperlink">
+  <LocaleResource Name="Enums.TinyCms.Core.Domain.Catalog.SpecificationAttributeType.Hyperlink">
     <Value>Hyperlink</Value>
   </LocaleResource>
-  <LocaleResource Name="Enums.Nop.Core.Domain.Common.FulltextSearchMode.And">
+  <LocaleResource Name="Enums.TinyCms.Core.Domain.Common.FulltextSearchMode.And">
     <Value>Using CONTAINS and AND with prefix_term</Value>
   </LocaleResource>
-  <LocaleResource Name="Enums.Nop.Core.Domain.Common.FulltextSearchMode.ExactMatch">
+  <LocaleResource Name="Enums.TinyCms.Core.Domain.Common.FulltextSearchMode.ExactMatch">
     <Value>Exact match (using CONTAINS with prefix_term)</Value>
   </LocaleResource>
-  <LocaleResource Name="Enums.Nop.Core.Domain.Common.FulltextSearchMode.Or">
+  <LocaleResource Name="Enums.TinyCms.Core.Domain.Common.FulltextSearchMode.Or">
     <Value>Using CONTAINS and OR with prefix_term</Value>
   </LocaleResource>
-  <LocaleResource Name="Enums.Nop.Core.Domain.Customers.CustomerNameFormat.ShowEmails">
+  <LocaleResource Name="Enums.TinyCms.Core.Domain.Customers.CustomerNameFormat.ShowEmails">
     <Value>Show emails</Value>
   </LocaleResource>
-  <LocaleResource Name="Enums.Nop.Core.Domain.Customers.CustomerNameFormat.ShowFirstName">
+  <LocaleResource Name="Enums.TinyCms.Core.Domain.Customers.CustomerNameFormat.ShowFirstName">
     <Value>Show first name</Value>
   </LocaleResource>
-  <LocaleResource Name="Enums.Nop.Core.Domain.Customers.CustomerNameFormat.ShowFullNames">
+  <LocaleResource Name="Enums.TinyCms.Core.Domain.Customers.CustomerNameFormat.ShowFullNames">
     <Value>Show full names</Value>
   </LocaleResource>
-  <LocaleResource Name="Enums.Nop.Core.Domain.Customers.CustomerNameFormat.ShowUsernames">
+  <LocaleResource Name="Enums.TinyCms.Core.Domain.Customers.CustomerNameFormat.ShowUsernames">
     <Value>Show usernames</Value>
   </LocaleResource>
-  <LocaleResource Name="Enums.Nop.Core.Domain.Customers.PasswordFormat.Clear">
+  <LocaleResource Name="Enums.TinyCms.Core.Domain.Customers.PasswordFormat.Clear">
     <Value>Clear</Value>
   </LocaleResource>
-  <LocaleResource Name="Enums.Nop.Core.Domain.Customers.PasswordFormat.Encrypted">
+  <LocaleResource Name="Enums.TinyCms.Core.Domain.Customers.PasswordFormat.Encrypted">
     <Value>Encrypted</Value>
   </LocaleResource>
-  <LocaleResource Name="Enums.Nop.Core.Domain.Customers.PasswordFormat.Hashed">
+  <LocaleResource Name="Enums.TinyCms.Core.Domain.Customers.PasswordFormat.Hashed">
     <Value>Hashed</Value>
   </LocaleResource>
-  <LocaleResource Name="Enums.Nop.Core.Domain.Discounts.DiscountLimitationType.NTimesOnly">
+  <LocaleResource Name="Enums.TinyCms.Core.Domain.Discounts.DiscountLimitationType.NTimesOnly">
     <Value>N times only</Value>
   </LocaleResource>
-  <LocaleResource Name="Enums.Nop.Core.Domain.Discounts.DiscountLimitationType.NTimesPerCustomer">
+  <LocaleResource Name="Enums.TinyCms.Core.Domain.Discounts.DiscountLimitationType.NTimesPerCustomer">
     <Value>N times per customer</Value>
   </LocaleResource>
-  <LocaleResource Name="Enums.Nop.Core.Domain.Discounts.DiscountLimitationType.Unlimited">
+  <LocaleResource Name="Enums.TinyCms.Core.Domain.Discounts.DiscountLimitationType.Unlimited">
     <Value>Unlimited</Value>
   </LocaleResource>
-  <LocaleResource Name="Enums.Nop.Core.Domain.Discounts.DiscountType.AssignedToCategories">
+  <LocaleResource Name="Enums.TinyCms.Core.Domain.Discounts.DiscountType.AssignedToCategories">
     <Value>Assigned to categories</Value>
   </LocaleResource>
-  <LocaleResource Name="Enums.Nop.Core.Domain.Discounts.DiscountType.AssignedToManufacturers">
+  <LocaleResource Name="Enums.TinyCms.Core.Domain.Discounts.DiscountType.AssignedToManufacturers">
     <Value>Assigned to manufacturers</Value>
   </LocaleResource>
-  <LocaleResource Name="Enums.Nop.Core.Domain.Discounts.DiscountType.AssignedToOrderSubTotal">
+  <LocaleResource Name="Enums.TinyCms.Core.Domain.Discounts.DiscountType.AssignedToOrderSubTotal">
     <Value>Assigned to order subtotal</Value>
   </LocaleResource>
-  <LocaleResource Name="Enums.Nop.Core.Domain.Discounts.DiscountType.AssignedToOrderTotal">
+  <LocaleResource Name="Enums.TinyCms.Core.Domain.Discounts.DiscountType.AssignedToOrderTotal">
     <Value>Assigned to order total</Value>
   </LocaleResource>
-  <LocaleResource Name="Enums.Nop.Core.Domain.Discounts.DiscountType.AssignedToShipping">
+  <LocaleResource Name="Enums.TinyCms.Core.Domain.Discounts.DiscountType.AssignedToShipping">
     <Value>Assigned to shipping</Value>
   </LocaleResource>
-  <LocaleResource Name="Enums.Nop.Core.Domain.Discounts.DiscountType.AssignedToSkus">
+  <LocaleResource Name="Enums.TinyCms.Core.Domain.Discounts.DiscountType.AssignedToSkus">
     <Value>Assigned to products</Value>
   </LocaleResource>
-  <LocaleResource Name="Enums.Nop.Core.Domain.Forums.EditorType.BBCodeEditor">
+  <LocaleResource Name="Enums.TinyCms.Core.Domain.Forums.EditorType.BBCodeEditor">
     <Value>BBCode editor</Value>
   </LocaleResource>
-  <LocaleResource Name="Enums.Nop.Core.Domain.Forums.EditorType.HtmlEditor">
+  <LocaleResource Name="Enums.TinyCms.Core.Domain.Forums.EditorType.HtmlEditor">
     <Value>Html editor</Value>
   </LocaleResource>
-  <LocaleResource Name="Enums.Nop.Core.Domain.Forums.EditorType.SimpleTextBox">
+  <LocaleResource Name="Enums.TinyCms.Core.Domain.Forums.EditorType.SimpleTextBox">
     <Value>Simple textbox</Value>
   </LocaleResource>
-  <LocaleResource Name="Enums.Nop.Core.Domain.Forums.ForumSearchType.All">
+  <LocaleResource Name="Enums.TinyCms.Core.Domain.Forums.ForumSearchType.All">
     <Value>Topic titles and post text</Value>
   </LocaleResource>
-  <LocaleResource Name="Enums.Nop.Core.Domain.Forums.ForumSearchType.PostTextOnly">
+  <LocaleResource Name="Enums.TinyCms.Core.Domain.Forums.ForumSearchType.PostTextOnly">
     <Value>Post text only</Value>
   </LocaleResource>
-  <LocaleResource Name="Enums.Nop.Core.Domain.Forums.ForumSearchType.TopicTitlesOnly">
+  <LocaleResource Name="Enums.TinyCms.Core.Domain.Forums.ForumSearchType.TopicTitlesOnly">
     <Value>Topic titles only</Value>
   </LocaleResource>
-  <LocaleResource Name="Enums.Nop.Core.Domain.Forums.ForumTopicType.Announcement">
+  <LocaleResource Name="Enums.TinyCms.Core.Domain.Forums.ForumTopicType.Announcement">
     <Value>Announcement</Value>
   </LocaleResource>
-  <LocaleResource Name="Enums.Nop.Core.Domain.Forums.ForumTopicType.Normal">
+  <LocaleResource Name="Enums.TinyCms.Core.Domain.Forums.ForumTopicType.Normal">
     <Value>Normal</Value>
   </LocaleResource>
-  <LocaleResource Name="Enums.Nop.Core.Domain.Forums.ForumTopicType.Sticky">
+  <LocaleResource Name="Enums.TinyCms.Core.Domain.Forums.ForumTopicType.Sticky">
     <Value>Sticky</Value>
   </LocaleResource>
-  <LocaleResource Name="Enums.Nop.Core.Domain.Logging.LogLevel.Debug">
+  <LocaleResource Name="Enums.TinyCms.Core.Domain.Logging.LogLevel.Debug">
     <Value>Debug</Value>
   </LocaleResource>
-  <LocaleResource Name="Enums.Nop.Core.Domain.Logging.LogLevel.Error">
+  <LocaleResource Name="Enums.TinyCms.Core.Domain.Logging.LogLevel.Error">
     <Value>Error</Value>
   </LocaleResource>
-  <LocaleResource Name="Enums.Nop.Core.Domain.Logging.LogLevel.Fatal">
+  <LocaleResource Name="Enums.TinyCms.Core.Domain.Logging.LogLevel.Fatal">
     <Value>Fatal</Value>
   </LocaleResource>
-  <LocaleResource Name="Enums.Nop.Core.Domain.Logging.LogLevel.Information">
+  <LocaleResource Name="Enums.TinyCms.Core.Domain.Logging.LogLevel.Information">
     <Value>Information</Value>
   </LocaleResource>
-  <LocaleResource Name="Enums.Nop.Core.Domain.Logging.LogLevel.Warning">
+  <LocaleResource Name="Enums.TinyCms.Core.Domain.Logging.LogLevel.Warning">
     <Value>Warning</Value>
   </LocaleResource>
-  <LocaleResource Name="Enums.Nop.Core.Domain.Messages.QueuedEmailPriority.Low">
+  <LocaleResource Name="Enums.TinyCms.Core.Domain.Messages.QueuedEmailPriority.Low">
     <Value>Low</Value>
   </LocaleResource>
-  <LocaleResource Name="Enums.Nop.Core.Domain.Messages.QueuedEmailPriority.High">
+  <LocaleResource Name="Enums.TinyCms.Core.Domain.Messages.QueuedEmailPriority.High">
     <Value>High</Value>
   </LocaleResource>
-  <LocaleResource Name="Enums.Nop.Core.Domain.Orders.OrderStatus.Cancelled">
+  <LocaleResource Name="Enums.TinyCms.Core.Domain.Orders.OrderStatus.Cancelled">
     <Value>Cancelled</Value>
   </LocaleResource>
-  <LocaleResource Name="Enums.Nop.Core.Domain.Orders.OrderStatus.Complete">
+  <LocaleResource Name="Enums.TinyCms.Core.Domain.Orders.OrderStatus.Complete">
     <Value>Complete</Value>
   </LocaleResource>
-  <LocaleResource Name="Enums.Nop.Core.Domain.Orders.OrderStatus.Pending">
+  <LocaleResource Name="Enums.TinyCms.Core.Domain.Orders.OrderStatus.Pending">
     <Value>Pending</Value>
   </LocaleResource>
-  <LocaleResource Name="Enums.Nop.Core.Domain.Orders.OrderStatus.Processing">
+  <LocaleResource Name="Enums.TinyCms.Core.Domain.Orders.OrderStatus.Processing">
     <Value>Processing</Value>
   </LocaleResource>
-  <LocaleResource Name="Enums.Nop.Core.Domain.Orders.ReturnRequestStatus.Cancelled">
+  <LocaleResource Name="Enums.TinyCms.Core.Domain.Orders.ReturnRequestStatus.Cancelled">
     <Value>Cancelled</Value>
   </LocaleResource>
-  <LocaleResource Name="Enums.Nop.Core.Domain.Orders.ReturnRequestStatus.ItemsRefunded">
+  <LocaleResource Name="Enums.TinyCms.Core.Domain.Orders.ReturnRequestStatus.ItemsRefunded">
     <Value>Item(s) refunded</Value>
   </LocaleResource>
-  <LocaleResource Name="Enums.Nop.Core.Domain.Orders.ReturnRequestStatus.ItemsRepaired">
+  <LocaleResource Name="Enums.TinyCms.Core.Domain.Orders.ReturnRequestStatus.ItemsRepaired">
     <Value>Item(s) repaired</Value>
   </LocaleResource>
-  <LocaleResource Name="Enums.Nop.Core.Domain.Orders.ReturnRequestStatus.Pending">
+  <LocaleResource Name="Enums.TinyCms.Core.Domain.Orders.ReturnRequestStatus.Pending">
     <Value>Pending</Value>
   </LocaleResource>
-  <LocaleResource Name="Enums.Nop.Core.Domain.Orders.ReturnRequestStatus.Received">
+  <LocaleResource Name="Enums.TinyCms.Core.Domain.Orders.ReturnRequestStatus.Received">
     <Value>Received</Value>
   </LocaleResource>
-  <LocaleResource Name="Enums.Nop.Core.Domain.Orders.ReturnRequestStatus.RequestRejected">
+  <LocaleResource Name="Enums.TinyCms.Core.Domain.Orders.ReturnRequestStatus.RequestRejected">
     <Value>Request rejected</Value>
   </LocaleResource>
-  <LocaleResource Name="Enums.Nop.Core.Domain.Orders.ReturnRequestStatus.ReturnAuthorized">
+  <LocaleResource Name="Enums.TinyCms.Core.Domain.Orders.ReturnRequestStatus.ReturnAuthorized">
     <Value>Return authorized</Value>
   </LocaleResource>
-  <LocaleResource Name="Enums.Nop.Core.Domain.Payments.PaymentStatus.Authorized">
+  <LocaleResource Name="Enums.TinyCms.Core.Domain.Payments.PaymentStatus.Authorized">
     <Value>Authorized</Value>
   </LocaleResource>
-  <LocaleResource Name="Enums.Nop.Core.Domain.Payments.PaymentStatus.Paid">
+  <LocaleResource Name="Enums.TinyCms.Core.Domain.Payments.PaymentStatus.Paid">
     <Value>Paid</Value>
   </LocaleResource>
-  <LocaleResource Name="Enums.Nop.Core.Domain.Payments.PaymentStatus.PartiallyRefunded">
+  <LocaleResource Name="Enums.TinyCms.Core.Domain.Payments.PaymentStatus.PartiallyRefunded">
     <Value>Partially refunded</Value>
   </LocaleResource>
-  <LocaleResource Name="Enums.Nop.Core.Domain.Payments.PaymentStatus.Pending">
+  <LocaleResource Name="Enums.TinyCms.Core.Domain.Payments.PaymentStatus.Pending">
     <Value>Pending</Value>
   </LocaleResource>
-  <LocaleResource Name="Enums.Nop.Core.Domain.Payments.PaymentStatus.Refunded">
+  <LocaleResource Name="Enums.TinyCms.Core.Domain.Payments.PaymentStatus.Refunded">
     <Value>Refunded</Value>
   </LocaleResource>
-  <LocaleResource Name="Enums.Nop.Core.Domain.Payments.PaymentStatus.Voided">
+  <LocaleResource Name="Enums.TinyCms.Core.Domain.Payments.PaymentStatus.Voided">
     <Value>Voided</Value>
   </LocaleResource>
-  <LocaleResource Name="Enums.Nop.Core.Domain.Security.PasswordFormat.Clear">
+  <LocaleResource Name="Enums.TinyCms.Core.Domain.Security.PasswordFormat.Clear">
     <Value>Clear</Value>
   </LocaleResource>
-  <LocaleResource Name="Enums.Nop.Core.Domain.Security.PasswordFormat.Encrypted">
+  <LocaleResource Name="Enums.TinyCms.Core.Domain.Security.PasswordFormat.Encrypted">
     <Value>Encrypted</Value>
   </LocaleResource>
-  <LocaleResource Name="Enums.Nop.Core.Domain.Security.PasswordFormat.Hashed">
+  <LocaleResource Name="Enums.TinyCms.Core.Domain.Security.PasswordFormat.Hashed">
     <Value>Hashed</Value>
   </LocaleResource>
-  <LocaleResource Name="Enums.Nop.Core.Domain.Security.UserRegistrationType.AdminApproval">
+  <LocaleResource Name="Enums.TinyCms.Core.Domain.Security.UserRegistrationType.AdminApproval">
     <Value>A customer should be approved by administrator</Value>
   </LocaleResource>
-  <LocaleResource Name="Enums.Nop.Core.Domain.Security.UserRegistrationType.Disabled">
+  <LocaleResource Name="Enums.TinyCms.Core.Domain.Security.UserRegistrationType.Disabled">
     <Value>Registration is disabled</Value>
   </LocaleResource>
-  <LocaleResource Name="Enums.Nop.Core.Domain.Security.UserRegistrationType.EmailValidation">
+  <LocaleResource Name="Enums.TinyCms.Core.Domain.Security.UserRegistrationType.EmailValidation">
     <Value>Email validation is required after registration</Value>
   </LocaleResource>
-  <LocaleResource Name="Enums.Nop.Core.Domain.Security.UserRegistrationType.Standard">
+  <LocaleResource Name="Enums.TinyCms.Core.Domain.Security.UserRegistrationType.Standard">
     <Value>Standard account creation</Value>
   </LocaleResource>
-  <LocaleResource Name="Enums.Nop.Core.Domain.Seo.PageTitleSeoAdjustment.PagenameAfterStorename">
+  <LocaleResource Name="Enums.TinyCms.Core.Domain.Seo.PageTitleSeoAdjustment.PagenameAfterStorename">
     <Value>Page name comes after store name</Value>
   </LocaleResource>
-  <LocaleResource Name="Enums.Nop.Core.Domain.Seo.PageTitleSeoAdjustment.StorenameAfterPagename">
+  <LocaleResource Name="Enums.TinyCms.Core.Domain.Seo.PageTitleSeoAdjustment.StorenameAfterPagename">
     <Value>Store name comes after page name</Value>
   </LocaleResource>
-  <LocaleResource Name="Enums.Nop.Core.Domain.Seo.WwwRequirement.NoMatter">
+  <LocaleResource Name="Enums.TinyCms.Core.Domain.Seo.WwwRequirement.NoMatter">
     <Value>Doesn't matter</Value>
   </LocaleResource>
-  <LocaleResource Name="Enums.Nop.Core.Domain.Seo.WwwRequirement.WithoutWww">
+  <LocaleResource Name="Enums.TinyCms.Core.Domain.Seo.WwwRequirement.WithoutWww">
     <Value>Pages should not have WWW prefix</Value>
   </LocaleResource>
-  <LocaleResource Name="Enums.Nop.Core.Domain.Seo.WwwRequirement.WithWww">
+  <LocaleResource Name="Enums.TinyCms.Core.Domain.Seo.WwwRequirement.WithWww">
     <Value>Pages should have WWW prefix</Value>
   </LocaleResource>
-  <LocaleResource Name="Enums.Nop.Core.Domain.Shipping.ShippingStatus.Delivered">
+  <LocaleResource Name="Enums.TinyCms.Core.Domain.Shipping.ShippingStatus.Delivered">
     <Value>Delivered</Value>
   </LocaleResource>
-  <LocaleResource Name="Enums.Nop.Core.Domain.Shipping.ShippingStatus.NotYetShipped">
+  <LocaleResource Name="Enums.TinyCms.Core.Domain.Shipping.ShippingStatus.NotYetShipped">
     <Value>Not yet shipped</Value>
   </LocaleResource>
-  <LocaleResource Name="Enums.Nop.Core.Domain.Shipping.ShippingStatus.PartiallyShipped">
+  <LocaleResource Name="Enums.TinyCms.Core.Domain.Shipping.ShippingStatus.PartiallyShipped">
     <Value>Partially shipped</Value>
   </LocaleResource>
-  <LocaleResource Name="Enums.Nop.Core.Domain.Shipping.ShippingStatus.Shipped">
+  <LocaleResource Name="Enums.TinyCms.Core.Domain.Shipping.ShippingStatus.Shipped">
     <Value>Shipped</Value>
   </LocaleResource>
-  <LocaleResource Name="Enums.Nop.Core.Domain.Shipping.ShippingStatus.ShippingNotRequired">
+  <LocaleResource Name="Enums.TinyCms.Core.Domain.Shipping.ShippingStatus.ShippingNotRequired">
     <Value>Shipping not required</Value>
   </LocaleResource>
-  <LocaleResource Name="Enums.Nop.Core.Domain.Tax.TaxBasedOn.BillingAddress">
+  <LocaleResource Name="Enums.TinyCms.Core.Domain.Tax.TaxBasedOn.BillingAddress">
     <Value>Billing address</Value>
   </LocaleResource>
-  <LocaleResource Name="Enums.Nop.Core.Domain.Tax.TaxBasedOn.DefaultAddress">
+  <LocaleResource Name="Enums.TinyCms.Core.Domain.Tax.TaxBasedOn.DefaultAddress">
     <Value>Default address</Value>
   </LocaleResource>
-  <LocaleResource Name="Enums.Nop.Core.Domain.Tax.TaxBasedOn.ShippingAddress">
+  <LocaleResource Name="Enums.TinyCms.Core.Domain.Tax.TaxBasedOn.ShippingAddress">
     <Value>Shipping address</Value>
   </LocaleResource>
-  <LocaleResource Name="Enums.Nop.Core.Domain.Tax.TaxDisplayType.ExcludingTax">
+  <LocaleResource Name="Enums.TinyCms.Core.Domain.Tax.TaxDisplayType.ExcludingTax">
     <Value>Excluding tax</Value>
   </LocaleResource>
-  <LocaleResource Name="Enums.Nop.Core.Domain.Tax.TaxDisplayType.IncludingTax">
+  <LocaleResource Name="Enums.TinyCms.Core.Domain.Tax.TaxDisplayType.IncludingTax">
     <Value>Including tax</Value>
   </LocaleResource>
-  <LocaleResource Name="Enums.Nop.Core.Domain.Tax.VatNumberStatus.Empty">
+  <LocaleResource Name="Enums.TinyCms.Core.Domain.Tax.VatNumberStatus.Empty">
     <Value>Empty</Value>
   </LocaleResource>
-  <LocaleResource Name="Enums.Nop.Core.Domain.Tax.VatNumberStatus.Invalid">
+  <LocaleResource Name="Enums.TinyCms.Core.Domain.Tax.VatNumberStatus.Invalid">
     <Value>Invalid</Value>
   </LocaleResource>
-  <LocaleResource Name="Enums.Nop.Core.Domain.Tax.VatNumberStatus.Unknown">
+  <LocaleResource Name="Enums.TinyCms.Core.Domain.Tax.VatNumberStatus.Unknown">
     <Value>Unknown</Value>
   </LocaleResource>
-  <LocaleResource Name="Enums.Nop.Core.Plugins.LoadPluginsMode.All">
+  <LocaleResource Name="Enums.TinyCms.Core.Plugins.LoadPluginsMode.All">
     <Value>All</Value>
   </LocaleResource>
-  <LocaleResource Name="Enums.Nop.Core.Plugins.LoadPluginsMode.InstalledOnly">
+  <LocaleResource Name="Enums.TinyCms.Core.Plugins.LoadPluginsMode.InstalledOnly">
     <Value>Installed</Value>
   </LocaleResource>
-  <LocaleResource Name="Enums.Nop.Core.Plugins.LoadPluginsMode.NotInstalledOnly">
+  <LocaleResource Name="Enums.TinyCms.Core.Plugins.LoadPluginsMode.NotInstalledOnly">
     <Value>Not installed</Value>
   </LocaleResource>
-  <LocaleResource Name="Enums.Nop.Core.Domain.Tax.VatNumberStatus.Valid">
+  <LocaleResource Name="Enums.TinyCms.Core.Domain.Tax.VatNumberStatus.Valid">
     <Value>Valid</Value>
   </LocaleResource>
   <LocaleResource Name="Enums.Nop.Services.Payments.RecurringPaymentType.Automatic">

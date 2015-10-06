@@ -11,7 +11,14 @@ namespace TinyCms.Framework.ViewEngines.Razor
     {
         public CustomRazorViewEngine()
         {
-         
+
+
+            AreaViewLocationFormats = new[]
+                                          {
+                                              //default
+                                              "~/Areas/{2}/Views/{1}/{0}.cshtml",
+                                              "~/Areas/{2}/Views/Shared/{0}.cshtml",
+                                          };
 
             AreaMasterLocationFormats = new[]
                                             {
@@ -22,7 +29,6 @@ namespace TinyCms.Framework.ViewEngines.Razor
 
             AreaPartialViewLocationFormats = new[]
                                                  {
-       
                                                     //default
                                                     "~/Areas/{2}/Views/{1}/{0}.cshtml",
                                                     "~/Areas/{2}/Views/Shared/{0}.cshtml"
@@ -30,7 +36,6 @@ namespace TinyCms.Framework.ViewEngines.Razor
 
             ViewLocationFormats = new[]
                                       {
-                                          
                                             //default
                                             "~/Views/{1}/{0}.cshtml", 
                                             "~/Views/Shared/{0}.cshtml",
@@ -42,7 +47,6 @@ namespace TinyCms.Framework.ViewEngines.Razor
 
             MasterLocationFormats = new[]
                                         {
-                                        
                                             //default
                                             "~/Views/{1}/{0}.cshtml", 
                                             "~/Views/Shared/{0}.cshtml"
@@ -50,7 +54,6 @@ namespace TinyCms.Framework.ViewEngines.Razor
 
             PartialViewLocationFormats = new[]
                                              {
-                                              
                                                 //default
                                                 "~/Views/{1}/{0}.cshtml", 
                                                 "~/Views/Shared/{0}.cshtml", 

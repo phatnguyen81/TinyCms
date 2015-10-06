@@ -1,0 +1,6 @@
+D:\GitHub\TinyCms\TinyCms.Web\Administration\bin\TinyCms.Admin.dll.config
+D:\GitHub\TinyCms\TinyCms.Web\Administration\bin\TinyCms.Admin.dll
+D:\GitHub\TinyCms\TinyCms.Web\Administration\bin\TinyCms.Admin.pdb
+D:\GitHub\TinyCms\TinyCms.Web\Administration\TinyCms.Admin\obj\Debug\TinyCms.Admin.csprojResolveAssemblyReference.cache
+D:\GitHub\TinyCms\TinyCms.Web\Administration\TinyCms.Admin\obj\Debug\TinyCms.Admin.dll
+D:\GitHub\TinyCms\TinyCms.Web\Administration\TinyCms.Admin\obj\Debug\TinyCms.Admin.pdb

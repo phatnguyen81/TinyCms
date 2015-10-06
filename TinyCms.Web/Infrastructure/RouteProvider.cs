@@ -17,14 +17,7 @@ namespace TinyCms.Web.Infrastructure
                             new { controller = "Home", action = "Index" },
                             new[] { "TinyCms.Web.Controllers" });
 
-            //widgets
-            //we have this route for performance optimization because named routes are MUCH faster than usual Html.Action(...)
-            //and this route is highly used
-            routes.MapRoute("WidgetsByZone",
-                            "widgetsbyzone/",
-                            new { controller = "Widget", action = "WidgetsByZone" },
-                            new[] { "TinyCms.Web.Controllers" });
-
+          
             //login
             routes.MapLocalizedRoute("Login",
                             "login/",
@@ -46,25 +39,7 @@ namespace TinyCms.Web.Infrastructure
                             "cart/",
                             new { controller = "ShoppingCart", action = "Cart" },
                             new[] { "TinyCms.Web.Controllers" });
-            //wishlist
-            routes.MapLocalizedRoute("Wishlist",
-                            "wishlist/{customerGuid}",
-                            new { controller = "ShoppingCart", action = "Wishlist", customerGuid = UrlParameter.Optional },
-                            new[] { "TinyCms.Web.Controllers" });
 
-            //customer account links
-            routes.MapLocalizedRoute("CustomerInfo",
-                            "customer/info",
-                            new { controller = "Customer", action = "Info" },
-                            new[] { "TinyCms.Web.Controllers" });
-            routes.MapLocalizedRoute("CustomerAddresses",
-                            "customer/addresses",
-                            new { controller = "Customer", action = "Addresses" },
-                            new[] { "TinyCms.Web.Controllers" });
-            routes.MapLocalizedRoute("CustomerOrders",
-                            "order/history",
-                            new { controller = "Order", action = "CustomerOrders" },
-                            new[] { "TinyCms.Web.Controllers" });
 
             //contact us
             routes.MapLocalizedRoute("ContactUs",

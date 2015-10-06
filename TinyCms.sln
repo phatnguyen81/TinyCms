@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
-VisualStudioVersion = 12.0.31101.0
+VisualStudioVersion = 12.0.40629.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TinyCms.Web", "TinyCms.Web\TinyCms.Web.csproj", "{97D61CF0-F6BC-4166-A095-90DB304904B4}"
 EndProject
@@ -13,7 +13,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TinyCms.Services", "TinyCms
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TinyCms.Framework", "TinyCms.Framework\TinyCms.Framework.csproj", "{A4293744-A4E1-4396-8070-C32B661F29EA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TinyCms.Admin", "TinyCms.Web\Administration\TinyCms.Admin\TinyCms.Admin.csproj", "{C5452006-0509-4009-90C4-F14F90347496}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TinyCms.Admin", "TinyCms.Web\Administration\TinyCms.Admin.csproj", "{C5452006-0509-4009-90C4-F14F90347496}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

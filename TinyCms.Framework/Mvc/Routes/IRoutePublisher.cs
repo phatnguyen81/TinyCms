@@ -1,6 +1,6 @@
 ﻿using System.Web.Routing;
 
-namespace TinyCms.Web.Framework.Mvc.Routes
+namespace TinyCms.Framework.Mvc.Routes
 {
     /// <summary>
     /// Route publisher

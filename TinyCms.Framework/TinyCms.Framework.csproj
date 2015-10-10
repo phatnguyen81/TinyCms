@@ -111,6 +111,7 @@
     <Compile Include="Controllers\ParameterBasedOnFormNameAndValueAttribute.cs" />
     <Compile Include="Controllers\ParameterBasedOnFormNameAttribute.cs" />
     <Compile Include="DependencyRegistrar.cs" />
+    <Compile Include="Events\AdminTabStripCreated.cs" />
     <Compile Include="HtmlExtensions.cs" />
     <Compile Include="LanguageSeoCodeAttribute.cs" />
     <Compile Include="CmsResourceDisplayName.cs" />
